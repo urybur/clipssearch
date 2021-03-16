@@ -1,0 +1,34 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  margin-left: 10px;
+  padding: 10px; }
+
+.best__title {
+  text-align: center;
+  margin: 15px 0;
+  font-weight: 700;
+  font-size: 1.2rem; }
+
+.best__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 15px; }
+
+.best_btn {
+  padding: 10px;
+  margin-top: auto;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  border-radius: 15px;
+  font-weight: 700; }
+
+/*# sourceMappingURL=aside.css.map */

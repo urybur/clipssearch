@@ -153,3 +153,29 @@ section,
 summary {
   display: block;
 }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+button {
+  vertical-align: baseline;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  outline: none;
+
+  background: transparent;
+
+  color: inherit;
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

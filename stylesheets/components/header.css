@@ -1,0 +1,21 @@
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  background-color: #ffe247;
+  border-radius: 5px;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2); }
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px; }
+
+.inst {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px; }
+
+/*# sourceMappingURL=header.css.map */

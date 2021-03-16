@@ -1,0 +1,40 @@
+@import "../variables.scss";
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.best__title {
+  text-align: center;
+  margin: 15px 0;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.best__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 5px 10px;
+
+  font-size: 0.8rem;
+  background-color: $black;
+  color: $white;
+  border-radius: 15px;
+}
+
+.best_btn {
+  padding: 10px;
+  margin-top: auto;
+  text-align: center;
+
+  color: $white;
+  background-color: $black;
+  border-radius: 15px;
+  font-weight: 700;
+}
